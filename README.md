@@ -49,8 +49,7 @@ run_full_pipeline.bat models/backdoored_model.pth models/clean_model.pth resnet1
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/[Mohamadreza Akbari Pour]/neural-activation-extractor.git
-cd neural-activation-extractor
+git clone https://github.com/MMRezAkp/TopoSurrogate-Shield.git
 ```
 
 2. Install dependencies for each stage:
@@ -305,3 +304,4 @@ If you use this tool in your research, please consider citing:
 ## Acknowledgments
 
 This tool is designed to be compatible with TopoTroj and TOAP methodologies for topological analysis of neural networks.
+
