@@ -297,11 +297,12 @@ If you use this tool in your research, please consider citing:
   title={Neural Network Activation Extractor for Topological Analysis},
   author={[Mohamadreza Akbari Pour] and [Samaneh Shamshiri] and [Ali Dehghantanha]},
   year={2025},
-  url={https://github.com/yourusername/neural-activation-extractor}
+  url={https://github.com/MMRezAkp/TopoSurrogate-Shield}
 }
 ```
 
 ## Acknowledgments
 
 This tool is designed to be compatible with TopoTroj and TOAP methodologies for topological analysis of neural networks.
+
 
