@@ -227,43 +227,6 @@ def get_model(num_classes=10, pretrained=False, architecture="resnet18"):
     return model
 ```
 
-## Examples
-
-### Example 1: Basic Usage
-```bash
-python activation_topotroj.py \
-    --model_type clean \
-    --input_type clean \
-    --model_path ./models/resnet18_clean.pth \
-    --tap_mode topotroj_compat \
-    --include_fc
-```
-
-### Example 2: Topological Analysis
-```bash
-python activation_topotroj.py \
-    --model_type clean \
-    --input_type clean \
-    --model_path ./models/model.pth \
-    --run_topology \
-    --threshold_min 0.2 \
-    --threshold_max 0.8 \
-    --num_thresholds 30
-```
-
-### Example 3: Backdoor Detection
-```bash
-python activation_topotroj.py \
-    --model_type backdoored \
-    --input_type triggered \
-    --model_path ./models/backdoored.pth \
-    --run_topology \
-    --trigger_pattern_size 3 \
-    --trigger_pixel_value 1.0 \
-    --trigger_location br \
-    --poison_target_label 0
-```
-
 ## Detailed Documentation
 
 - **[PROJECT_ORGANIZATION.md](PROJECT_ORGANIZATION.md)**: Complete project structure and workflow explanation
@@ -304,6 +267,7 @@ If you use this tool in your research, please consider citing:
 ## Acknowledgments
 
 This tool is designed to be compatible with TopoTroj and TOAP methodologies for topological analysis of neural networks.
+
 
 
 
