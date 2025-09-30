@@ -1,6 +1,6 @@
 # Neural Network Analysis Pipeline for Backdoor Detection
 
-A comprehensive 3-stage pipeline for neural network analysis using topological signal strength (TSS) and graph neural networks (GNN) for backdoor detection. This toolkit provides end-to-end capabilities from activation extraction to attack success rate analysis.
+A comprehensive 3-stage pipeline for neural network analysis using Topological Susceptibility Score (TSS) and graph neural networks (GNN) for backdoor detection. This toolkit provides end-to-end capabilities from activation extraction to attack success rate analysis.
 
 ## Pipeline Overview
 
@@ -9,7 +9,7 @@ Stage 1: TSS Extraction → Stage 2: GNN Training → Stage 3: ASR Analysis
      (TSS folder)           (GNN folder)         (ASR_ANALYSES folder)
 ```
 
-**Stage 1 (TSS/)**: Extract neural network activations and compute Topological Summary Statistics  
+**Stage 1 (TSS/)**: Extract neural network activations and compute Topological Susceptibility Score  
 **Stage 2 (GNN/)**: Train Graph Neural Networks to predict TSS from model architectures  
 **Stage 3 (ASR_ANALYSES/)**: Analyze Attack Success Rate using GNN predictions and TSS comparison
 
@@ -304,5 +304,6 @@ If you use this tool in your research, please consider citing:
 ## Acknowledgments
 
 This tool is designed to be compatible with TopoTroj and TOAP methodologies for topological analysis of neural networks.
+
 
 
